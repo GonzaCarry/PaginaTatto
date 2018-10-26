@@ -1,0 +1,791 @@
+
+#jumbo{
+  background-color: transparent;
+  color: white;
+  margin: auto;
+  font-size: 90px;
+  font-style: oblique;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+#jumbotron{
+    background-image: url("../img/jumbotron.jpg");
+}
+
+#historiaTatuaje{
+  font-style: oblique;
+  color: white;
+  background-color: transparent;
+}
+
+#jumbo-contacta{
+  background-color: black;
+  color: transparent;
+}
+
+#fondoContacta{
+  background-image: url("../img/fondoContacta.jpg");
+}
+
+#titulo-contacta{
+  background-color: transparent;
+  color: white;
+  font-style: oblique;
+}
+
+#titulo-galeria{
+  background-color: transparent;
+  color: white;
+  font-style: oblique;
+}
+
+#roshi-ensei {
+  width: 100%;
+  height: auto;
+
+}
+
+#historia1{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#historia2{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#myScrollspy{
+    position: relative;
+}
+
+#black1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+
+}
+
+#black2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#geo1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#geo2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#dot1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#dot2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#tra1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#hip1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#hip2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#tra2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#sur1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#sur2{
+  width: 100%;
+  height: 480px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#wat1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#wat2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#old1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#old2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#neo1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#neo2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#new1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#new2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#ire1{
+  width: 100%;
+  height: 720px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#ire2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#tri1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#tri2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#bos1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#bos2{
+  width: 100%;
+  height: 540px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#ilu1{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#ilu2{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+body{
+  background-color: black;
+  color: transparent;
+}
+
+h2{
+  color: white;
+  background-color: transparent;
+  font-style: oblique;
+}
+
+p{
+  color: grey;
+  background-color: transparent;
+}
+
+th{
+  color: white;
+  background-color: transparent;
+}
+
+td{
+  color: grey;
+  background-color: transparent;
+}
+
+h1{
+  color: white;
+  background-color: transparent;
+  font-style: oblique;
+}
+
+h4{
+  color: grey;
+  background-color: transparent;
+}
+
+label{
+  color: white;
+  background-color: transparent;
+}
+
+#jumbo-galeria{
+    background-color: white;
+    color: transparent;
+}
+
+#gt1{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt2{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt3{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt4{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt5{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt6{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt7{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt8{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt9{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt10{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt11{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt12{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt13{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt14{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt15{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt16{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt17{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt18{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt19{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt20{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt21{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt22{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt23{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#gt24{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#mgt1{
+  width: 100%;
+  height: auto;
+}
+
+#mgt2{
+  width: 100%;
+  height: auto;
+}
+
+#mgt3{
+  width: 100%;
+  height: auto;
+}
+
+#mgt4{
+  width: 100%;
+  height: auto;
+}
+
+#mgt5{
+  width: 100%;
+  height: auto;
+}
+
+#mgt6{
+  width: 100%;
+  height: auto;
+}
+
+#mgt7{
+  width: 100%;
+  height: auto;
+}
+
+#mgt8{
+  width: 100%;
+  height: auto;
+}
+
+#mgt9{
+  width: 100%;
+  height: auto;
+}
+
+#mgt10{
+  width: 100%;
+  height: auto;
+}
+
+#mgt11{
+  width: 100%;
+  height: auto;
+}
+
+#mgt12{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt1{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt2{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt3{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt4{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt5{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt6{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt7{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt8{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt9{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt10{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt11{
+  width: 100%;
+  height: auto;
+}
+
+#m2gt12{
+  width: 100%;
+  height: auto;
+}
+
+#bgt1{
+  margin-bottom: 10px;
+}
+
+#bgt2{
+  margin-bottom: 10px;
+}
+
+#bgt3{
+  margin-bottom: 10px;
+}
+
+#bgt4{
+  margin-bottom: 10px;
+}
+
+#bgt5{
+  margin-bottom: 10px;
+}
+
+#bgt6{
+  margin-bottom: 10px;
+}
+
+#bgt7{
+  margin-bottom: 10px;
+}
+
+#bgt8{
+  margin-bottom: 10px;
+}
+
+#bgt9{
+  margin-bottom: 10px;
+}
+
+#bgt10{
+  margin-bottom: 10px;
+}
+
+#bgt11{
+  margin-bottom: 10px;
+}
+
+#bgt12{
+  margin-bottom: 10px;
+}
+
+#bgt13{
+  margin-bottom: 10px;
+}
+
+#bgt14{
+  margin-bottom: 10px;
+}
+
+#bgt15{
+  margin-bottom: 10px;
+}
+
+#bgt16{
+  margin-bottom: 10px;
+}
+
+#bgt17{
+  margin-bottom: 10px;
+}
+
+#bgt18{
+  margin-bottom: 10px;
+}
+
+#bgt19{
+  margin-bottom: 10px;
+}
+
+#bgt20{
+  margin-bottom: 10px;
+}
+
+#bgt21{
+  margin-bottom: 10px;
+}
+
+#bgt22{
+  margin-bottom: 10px;
+}
+
+#bgt23{
+  margin-bottom: 10px;
+}
+
+#bgt24{
+  margin-bottom: 10px;
+}
+
+#carrousel1{
+  width: 100%;
+  height: auto;
+
+}
+
+#carrousel2{
+  width: 100%;
+  height: auto;
+}
+
+#carrousel3{
+  width: 100%;
+  height: auto;
+}
+
+#carrousel4{
+  width: 100%;
+  height: auto;
+}
