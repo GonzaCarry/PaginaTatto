@@ -1,0 +1,119 @@
+body{
+  background-color: black;
+  color: transparent;
+}
+
+#entorno1 {
+	display: block;
+	margin: 0 auto;
+}
+
+#entorno2 {
+	display: block;
+	margin: 0 auto;
+}
+
+#entorno3 {
+	display: block;
+	margin: 0 auto;
+}
+
+#entorno4 {
+	display: block;
+	margin: 0 auto;
+}
+
+#fondo1 {
+	opacity: 0.3;
+}
+
+#fondo2 {
+	opacity: 0.3;
+}
+
+#fondo3 {
+	opacity: 0.3;
+}
+
+#fondo4 {
+	opacity: 0.3;
+}
+
+#bp1{
+  margin-bottom: 10px;
+}
+
+#bp2{
+  margin-bottom: 10px;
+}
+
+#bp3{
+  margin-bottom: 10px;
+}
+
+#bp4{
+  margin-bottom: 10px;
+}
+
+#puzzle1{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#puzzle2{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#puzzle3{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#puzzle4{
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#mgt1{
+  width: 100%;
+  height: auto;
+}
+
+#mgt2{
+  width: 100%;
+  height: auto;
+}
+
+#mgt3{
+  width: 100%;
+  height: auto;
+}
+
+#mgt4{
+  width: 100%;
+  height: auto;
+}
+
+h4{
+  color: grey;
+  background-color: transparent;
+}
+
+h1{
+  color: white;
+  background-color: transparent;
+  font-style: oblique;
+}

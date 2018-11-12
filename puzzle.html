@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Puzzle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="styles/stylesPuzzle.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="#">Tattoos</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="historia.html">Historia</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="estilos.html" id="navbardrop" data-toggle="dropdown">
+            Estilos</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="blackwork.html">Blackwork</a>
+              <a class="dropdown-item" href="geometricos.html">Geométricos</a>
+              <a class="dropdown-item" href="dotwork.html">Dotwork</a>
+              <a class="dropdown-item" href="trashPolka.html">Trash Polka</a>
+              <a class="dropdown-item" href="hiperrealismo.html">Hiperrealismo</a>
+              <a class="dropdown-item" href="surrealismo.html">Surrealismo</a>
+              <a class="dropdown-item" href="watercolor.html">Watercolor</a>
+              <a class="dropdown-item" href="oldSchool.html">Old School</a>
+              <a class="dropdown-item" href="neotradicional.html">Neotradicional</a>
+              <a class="dropdown-item" href="newSchool.html">New School</a>
+              <a class="dropdown-item" href="irezumi.html">Irezumi</a>
+              <a class="dropdown-item" href="tribales.html">Tribales</a>
+              <a class="dropdown-item" href="bosquejo.html">Bosquejo</a>
+              <a class="dropdown-item" href="ilustracion.html">Ilustración</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="puzzle.html">Puzzle</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacta.html">Contacta</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <br/>
+
+    <div class="container">
+      <div id="tablero1">
+
+        <h1 class="text-center">Puzzle 1</h1>
+
+        <br/>
+
+        <svg width="800" height="800" id="entorno1">
+          <g id="fondo1"><image href="img/puzzleOriginal1.jpg" width="600" height="600" x="200" y="100"></image></g>
+          <g id="p0"><image href="img/pieza1.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p1"><image href="img/pieza2.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p2"><image href="img/pieza3.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p3"><image href="img/pieza4.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p4"><image href="img/pieza5.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p5"><image href="img/pieza6.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p6"><image href="img/pieza7.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p7"><image href="img/pieza8.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p8"><image href="img/pieza9.jpg" class="movil" width="200" height="200"></image></g>
+        </svg>
+
+      </div>
+    </div>
+<!--
+    <div class="container">
+      <div id="tablero2">
+
+        <h1 class="text-center">Puzzle 2</h1>
+
+        <br/>
+
+        <svg width="800" height="800" id="entorno2">
+          <g id="fondo2"><image href="img/puzzleOriginal2.jpg" width="600" height="600" x="200" y="100"></image></g>
+          <g id="p9"><image href="img/pieza1_2.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p10"><image href="img/pieza2_2.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p11"><image href="img/pieza3_2.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p12"><image href="img/pieza4_2.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p13"><image href="img/pieza5_2.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p14"><image href="img/pieza6_2.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p15"><image href="img/pieza7_2.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p16"><image href="img/pieza8_2.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p17"><image href="img/pieza9_2.jpg" class="movil" width="200" height="200"></image></g>
+        </svg>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="tablero3">
+
+        <h1 class="text-center">Puzzle 3</h1>
+
+        <br/>
+
+        <svg width="800" height="800" id="entorno3">
+          <g id="fondo3"><image href="img/puzzleOriginal3.jpg" width="600" height="600" x="200" y="100"></image></g>
+          <g id="p18"><image href="img/pieza1_3.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p19"><image href="img/pieza2_3.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p20"><image href="img/pieza3_3.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p21"><image href="img/pieza4_3.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p22"><image href="img/pieza5_3.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p23"><image href="img/pieza6_3.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p24"><image href="img/pieza7_3.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p25"><image href="img/pieza8_3.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p26"><image href="img/pieza9_3.jpg" class="movil" width="200" height="200"></image></g>
+        </svg>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="tablero4">
+
+        <h1 class="text-center">Puzzle 4</h1>
+
+        <br/>
+
+        <svg width="800" height="800" id="entorno4">
+          <g id="fondo4"><image href="img/puzzleOriginal4.jpg" width="600" height="600" x="200" y="100"></image></g>
+          <g id="p27"><image href="img/pieza1_4.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p28"><image href="img/pieza2_4.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p29"><image href="img/pieza3_4.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p30"><image href="img/pieza4_4.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p31"><image href="img/pieza5_4.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p32"><image href="img/pieza6_4.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p33"><image href="img/pieza7_4.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p34"><image href="img/pieza8_4.jpg" class="movil" width="200" height="200"></image></g>
+          <g id="p35"><image href="img/pieza9_4.jpg" class="movil" width="200" height="200"></image></g>
+        </svg>
+
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal1" id="bp1">
+            <img class="img-responsive rounded" alt="responsive1" src="img/puzzleOriginal1.jpg" id="puzzle1">
+          </button>
+        </div>
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal2" id="bp2">
+            <img class="img-responsive rounded" alt="responsive2" src="img/puzzleOriginal2.jpg" id="puzzle2">
+          </button>
+        </div>
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal3" id="bp3">
+            <img class="img-responsive rounded" alt="responsive3" src="img/puzzleOriginal3.jpg" id="puzzle3">
+          </button>
+        </div>
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal4" id="bp4">
+            <img class="img-responsive rounded" alt="responsive4" src="img/puzzleOriginal4.jpg" id="puzzle4">
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal1" class="modal">
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title-center">Puzzle 1</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" alt="responsive1" src="img/puzzleOriginal1.jpg" id="mgt1">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary">Choose</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title-center">Puzzle 2</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" alt="responsive1" src="img/puzzleOriginal2.jpg" id="mgt2">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary">Choose</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal3" class="modal">
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title-center">Puzzle 3</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" alt="responsive1" src="img/puzzleOriginal3.jpg" id="mgt3">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary">Choose</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal4" class="modal">
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title-center">Puzzle 4</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" alt="responsive1" src="img/puzzleOriginal4.jpg" id="mgt4">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary">Choose</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br/>
+
+
+    <script type="text/javascript" src="js/puzzle.js"></script>
+
+  </body>
+  </html>
