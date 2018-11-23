@@ -41,7 +41,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="estilos.html" id="navbardrop" data-toggle="dropdown">
             Estilos</a>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu bg-dark">
               <a class="dropdown-item" href="blackwork.html">Blackwork</a>
               <a class="dropdown-item" href="geometricos.html">Geométricos</a>
               <a class="dropdown-item" href="dotwork.html">Dotwork</a>
@@ -62,7 +62,9 @@
             <a class="nav-link" href="galeria.html">Galería</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="puzzle.html">Puzzle</a>
+            <div class="d-none d-lg-block">
+              <a class="nav-link active" href="puzzle.html">Puzzle</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacta.html">Contacta</a>
@@ -73,14 +75,14 @@
 
     <br/>
 
-    <div class="container">
-      <div id="tablero1">
+    <div id="tablero1">
+      <div class="container">
 
         <h1 class="text-center">Puzzle 1</h1>
 
         <br/>
 
-        <svg width="800" height="800" id="entorno1">
+        <svg class="entorno" width="800" height="800">
           <g id="fondo1"><image href="img/puzzleOriginal1.jpg" width="600" height="600" x="200" y="100"></image></g>
           <g id="p0"><image href="img/pieza1.jpg" class="movil" width="200" height="200"></image></g>
           <g id="p1"><image href="img/pieza2.jpg" class="movil" width="200" height="200"></image></g>
@@ -95,15 +97,15 @@
 
       </div>
     </div>
-<!--
-    <div class="container">
-      <div id="tablero2">
+
+    <div id="tablero2">
+      <div class="container">
 
         <h1 class="text-center">Puzzle 2</h1>
 
         <br/>
 
-        <svg width="800" height="800" id="entorno2">
+        <svg class="entorno" width="800" height="800">
           <g id="fondo2"><image href="img/puzzleOriginal2.jpg" width="600" height="600" x="200" y="100"></image></g>
           <g id="p9"><image href="img/pieza1_2.jpg" class="movil" width="200" height="200"></image></g>
           <g id="p10"><image href="img/pieza2_2.jpg" class="movil" width="200" height="200"></image></g>
@@ -119,14 +121,14 @@
       </div>
     </div>
 
-    <div class="container">
-      <div id="tablero3">
+    <div id="tablero3">
+      <div class="container">
 
         <h1 class="text-center">Puzzle 3</h1>
 
         <br/>
 
-        <svg width="800" height="800" id="entorno3">
+        <svg class="entorno" width="800" height="800">
           <g id="fondo3"><image href="img/puzzleOriginal3.jpg" width="600" height="600" x="200" y="100"></image></g>
           <g id="p18"><image href="img/pieza1_3.jpg" class="movil" width="200" height="200"></image></g>
           <g id="p19"><image href="img/pieza2_3.jpg" class="movil" width="200" height="200"></image></g>
@@ -142,14 +144,14 @@
       </div>
     </div>
 
-    <div class="container">
-      <div id="tablero4">
+    <div id="tablero4">
+      <div class="container">
 
         <h1 class="text-center">Puzzle 4</h1>
 
         <br/>
 
-        <svg width="800" height="800" id="entorno4">
+        <svg class="entorno" width="800" height="800">
           <g id="fondo4"><image href="img/puzzleOriginal4.jpg" width="600" height="600" x="200" y="100"></image></g>
           <g id="p27"><image href="img/pieza1_4.jpg" class="movil" width="200" height="200"></image></g>
           <g id="p28"><image href="img/pieza2_4.jpg" class="movil" width="200" height="200"></image></g>
@@ -163,109 +165,134 @@
         </svg>
 
       </div>
-    </div> -->
+    </div>
 
     <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal1" id="bp1">
+          <button  id="boton1" type="button" class="btn btn-light">
             <img class="img-responsive rounded" alt="responsive1" src="img/puzzleOriginal1.jpg" id="puzzle1">
           </button>
         </div>
         <div class="col-sm-3">
-          <button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal2" id="bp2">
-            <img class="img-responsive rounded" alt="responsive2" src="img/puzzleOriginal2.jpg" id="puzzle2">
+          <button  id="boton2" type="button" class="btn btn-light">
+            <img class="img-responsive rounded" alt="responsive1" src="img/puzzleOriginal2.jpg" id="puzzle2">
           </button>
         </div>
         <div class="col-sm-3">
-          <button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal3" id="bp3">
-            <img class="img-responsive rounded" alt="responsive3" src="img/puzzleOriginal3.jpg" id="puzzle3">
+          <button  id="boton3" type="button" class="btn btn-light">
+            <img class="img-responsive rounded" alt="responsive1" src="img/puzzleOriginal3.jpg" id="puzzle3">
           </button>
         </div>
         <div class="col-sm-3">
-          <button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal4" id="bp4">
-            <img class="img-responsive rounded" alt="responsive4" src="img/puzzleOriginal4.jpg" id="puzzle4">
+          <button  id="boton4" type="button" class="btn btn-light">
+            <img class="img-responsive rounded" alt="responsive1" src="img/puzzleOriginal4.jpg" id="puzzle4">
           </button>
         </div>
       </div>
     </div>
 
-    <div id="myModal1" class="modal">
-      <div class="modal-dialog">
+    <!-- <div class="container">
+    <div class="row">
+    <div class="col-sm-3">
+    <button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal1" id="bp1">
+    <img class="img-responsive rounded" alt="responsive1" src="img/puzzleOriginal1.jpg" id="puzzle1">
+  </button>
+</div>
+<div class="col-sm-3">
+<button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal2" id="bp2">
+<img class="img-responsive rounded" alt="responsive2" src="img/puzzleOriginal2.jpg" id="puzzle2">
+</button>
+</div>
+<div class="col-sm-3">
+<button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal3" id="bp3">
+<img class="img-responsive rounded" alt="responsive3" src="img/puzzleOriginal3.jpg" id="puzzle3">
+</button>
+</div>
+<div class="col-sm-3">
+<button type="button" class="btn btn-light " data-toggle="modal" data-target="#myModal4" id="bp4">
+<img class="img-responsive rounded" alt="responsive4" src="img/puzzleOriginal4.jpg" id="puzzle4">
+</button>
+</div>
+</div>
+</div> -->
 
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title-center">Puzzle 1</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" alt="responsive1" src="img/puzzleOriginal1.jpg" id="mgt1">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary">Choose</button>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+<!-- <div id="myModal1" class="modal">
+<div class="modal-dialog">
 
-    <div id="myModal2" class="modal">
-      <div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title-center">Puzzle 1</h4>
+</div>
+<div class="modal-body">
+<img class="img-responsive" alt="responsive1" src="img/puzzleOriginal1.jpg" id="mgt1">
+</div>
+<div class="modal-footer">
+<button id="boton1" type="button" class="btn btn-secondary">Choose</button>
+<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
 
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title-center">Puzzle 2</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" alt="responsive1" src="img/puzzleOriginal2.jpg" id="mgt2">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary">Choose</button>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div id="myModal2" class="modal">
+<div class="modal-dialog">
 
-    <div id="myModal3" class="modal">
-      <div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title-center">Puzzle 2</h4>
+</div>
+<div class="modal-body">
+<img class="img-responsive" alt="responsive1" src="img/puzzleOriginal2.jpg" id="mgt2">
+</div>
+<div class="modal-footer">
+<button id="boton2" type="button" class="btn btn-secondary">Choose</button>
+<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
 
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title-center">Puzzle 3</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" alt="responsive1" src="img/puzzleOriginal3.jpg" id="mgt3">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary">Choose</button>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div id="myModal3" class="modal">
+<div class="modal-dialog">
 
-    <div id="myModal4" class="modal">
-      <div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title-center">Puzzle 3</h4>
+</div>
+<div class="modal-body">
+<img class="img-responsive" alt="responsive1" src="img/puzzleOriginal3.jpg" id="mgt3">
+</div>
+<div class="modal-footer">
+<button id="boton3" type="button" class="btn btn-secondary">Choose</button>
+<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
 
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title-center">Puzzle 4</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" alt="responsive1" src="img/puzzleOriginal4.jpg" id="mgt4">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary">Choose</button>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div id="myModal4" class="modal">
+<div class="modal-dialog">
 
-    <br/>
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title-center">Puzzle 4</h4>
+</div>
+<div class="modal-body">
+<img class="img-responsive" alt="responsive1" src="img/puzzleOriginal4.jpg" id="mgt4">
+</div>
+<div class="modal-footer">
+<button id="boton4" type="button" class="btn btn-secondary">Choose</button>
+<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div> -->
+
+<br/>
 
 
-    <script type="text/javascript" src="js/puzzle.js"></script>
+<script type="text/javascript" src="js/puzzle.js"></script>
 
-  </body>
-  </html>
+</body>
+</html>

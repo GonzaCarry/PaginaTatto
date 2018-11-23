@@ -1,3 +1,37 @@
+window.onload = initialize;
+
+function initialize() {
+
+	setInterval(mostrarTablero);
+}
+
+function mostrarTablero() {
+	if(tablero.length != 1){
+		var random = Math.floor((Math.random() * 4) + 1);
+		tablero.push(random);
+		console.log(random);
+	}
+	if (random == 1) {
+		var tablero1 = document.getElementById("tablero1")
+		tablero1.style.display = "block";
+	}
+	if (random == 2) {
+		var tablero2 = document.getElementById("tablero2")
+		tablero2.style.display = "block";
+	}
+	if (random == 3) {
+		var tablero3 = document.getElementById("tablero3")
+		tablero3.style.display = "block";
+	}
+	if (random == 4) {
+		var tablero4 = document.getElementById("tablero4")
+		tablero4.style.display = "block";
+	}
+}
+
+var tablero = [];
+
+
 var piezas = document.getElementsByClassName("movil");
 
 for(var i = 0; i < piezas.length; i++){
@@ -44,7 +78,9 @@ function deseleccionarElemento(evt){
 	}
 }
 
-var entorno = document.getElementById("entorno1","entorno2","entorno3","entorno4");
+var entorno = document.getElementsByClassName("entorno");
+
+entorno[0]
 
 function reordenar(evt){
 	var pieza = evt.target.parentNode;
@@ -65,4 +101,66 @@ function iman(){
 			elementSelect.setAttribute("y",origY[i]);
 		}
 	}
+}
+
+var boton1 = document.getElementById("boton1");
+boton1.addEventListener("click", hacerInvisible1);
+
+var boton2 = document.getElementById("boton2");
+boton2.addEventListener("click", hacerInvisible2);
+
+var boton3 = document.getElementById("boton3");
+boton3.addEventListener("click", hacerInvisible3);
+
+var boton4 = document.getElementById("boton4");
+boton4.addEventListener("click", hacerInvisible4);
+
+function hacerInvisible1() {
+	var tablero2 = document.getElementById("tablero2");
+	var tablero3 = document.getElementById("tablero3");
+	var tablero4 = document.getElementById("tablero4");
+	tablero2.style.display = "none";
+	tablero3.style.display = "none";
+	tablero4.style.display = "none";
+	tablero1.style.display = "block";
+}
+
+function hacerInvisible1() {
+	var tablero2 = document.getElementById("tablero2");
+	var tablero3 = document.getElementById("tablero3");
+	var tablero4 = document.getElementById("tablero4");
+	tablero2.style.display = "none";
+	tablero3.style.display = "none";
+	tablero4.style.display = "none";
+	tablero1.style.display = "block";
+}
+
+function hacerInvisible2() {
+	var tablero1 = document.getElementById("tablero1");
+	var tablero3 = document.getElementById("tablero3");
+	var tablero4 = document.getElementById("tablero4");
+	tablero1.style.display = "none";
+	tablero3.style.display = "none";
+	tablero4.style.display = "none";
+	tablero2.style.display = "block";
+}
+
+function hacerInvisible3() {
+	var tablero2 = document.getElementById("tablero2");
+	var tablero1 = document.getElementById("tablero1");
+	var tablero4 = document.getElementById("tablero4");
+	tablero2.style.display = "none";
+	tablero1.style.display = "none";
+	tablero4.style.display = "none";
+	tablero3.style.display = "block";
+}
+
+function hacerInvisible4() {
+	var tablero2 = document.getElementById("tablero2");
+	var tablero3 = document.getElementById("tablero3");
+	var tablero1 = document.getElementById("tablero1");
+	tablero2.style.display = "none";
+	tablero3.style.display = "none";
+	tablero1.style.display = "none";
+	tablero4.style.display = "block";
 }

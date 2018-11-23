@@ -3,22 +3,7 @@ body{
   color: transparent;
 }
 
-#entorno1 {
-	display: block;
-	margin: 0 auto;
-}
-
-#entorno2 {
-	display: block;
-	margin: 0 auto;
-}
-
-#entorno3 {
-	display: block;
-	margin: 0 auto;
-}
-
-#entorno4 {
+.entorno {
 	display: block;
 	margin: 0 auto;
 }
@@ -116,4 +101,25 @@ h1{
   color: white;
   background-color: transparent;
   font-style: oblique;
+}
+
+.dropdown-item{
+  color: grey;
+  background-color: transparent;
+}
+
+#tablero1{
+  display: none;
+}
+
+#tablero2{
+  display: none;
+}
+
+#tablero3{
+  display: none;
+}
+
+#tablero4{
+  display: none;
 }
